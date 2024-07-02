@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.task-item {
+}
+.task-list {
+  border-top: 2px solid rgb(204, 204, 204);
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+}
+.edit-btn {
+  background-color: rgb(0, 163, 239);
+  color: white;
+}
+.del-btn {
+  background-color: rgb(244, 117, 6);
+  color: white;
+}
+.btnn {
+  padding: 0.5rem 2rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  font-size: large;
+}
+.btnn:hover {
+  box-shadow: gold;
+}
+.add-btn {
+  background-color: rgb(0, 160, 0);
+  border: none;
+  border-radius: 0.2rem;
+  font-size: medium;
+  color: white;
+}
+.item-type,
+.text-data {
+  border-radius: 0.2rem;
+  height: 100%;
+  padding: 0.2rem 1rem 0.2rem 0.2rem;
+  font-size: large;
+}
